@@ -254,6 +254,9 @@ h1{
 
 
 @media only screen and (max-width: 1024px){
+    main{
+        margin-top: 58px;
+    }
     .sect{
         height: 59px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.6);
