@@ -371,7 +371,7 @@ h1{
         margin-bottom: 50px;
         /* display: inline-block; */
         height: fit-content;
-                font-size: 0.88rem;
+        font-size: 0.88rem;
         
     }
     .f24-container-topRight{
@@ -382,6 +382,7 @@ h1{
     .f24-container-topRight-up{ 
         margin: 0 auto;
         width: 100vw;
+        height: 790px;
         max-width: 100%;
         justify-content: space-around;
         
