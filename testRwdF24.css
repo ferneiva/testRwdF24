@@ -2,14 +2,7 @@
     margin: 0;
     padding: 0;
 }
-main{
-    margin-top: 85px;
-    width: 100%;
-    /* width: 100vw; cria uma margem à esquerda a 772 px*/
-    height: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
+
 .sect{
     width: 100vw;
     max-width: 100%; 
@@ -100,11 +93,23 @@ main{
     display: none;
 }
 
+main{
+    margin-top: 85px;
+    width: 100vw;
+    max-width: 100%;
+    /* width: 100vw; cria uma margem à esquerda a 772 px*/
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    
+}
+
 
 .f24-container{
     margin-top: 52px;
     width: 1016px; /*aqui tem de mudar para viewwidth*/
-    height: auto; /*aqui tem de mudar para auto*/
+    height: auto;
+    
+    
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -250,7 +255,114 @@ h1{
 }
 .advertise img{
     width: 100%;
+    
 }
+
+/* ************** dark-container************* */
+.dark-container{
+    margin-top: 110px;
+    width: 100vw;
+    max-width: 100%;
+    height: 569px;
+    /* margin: 0 auto; */
+    background-color: rgb(58, 57, 57);
+}
+.dark-article{
+    width: 1016px;
+    height: 569px;
+    margin: 0 auto;
+    background-color: blueviolet;
+
+}
+.dark-span-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    
+}
+.dark-span{
+    width: 440px;
+    height: 46px;     
+    color: white;
+    margin-top: -20px;
+    background-color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 46px;    
+}
+.dark-images{
+    width: 100%;
+    height: calc(100% - 110px);
+    display: flex;
+    gap: 35px;
+    
+}
+.dark-images-left{
+    width: 464.01px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+.img-eu{
+    width: 464.01px;
+}
+.white-wrapper{
+    width: max-content;
+    height: 26px;
+    background-color: white;
+    font-size: 0.81rem;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+    line-height: 26px;
+}
+.article-page{
+    width: 464.01px;
+    height: max-content;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.dark-images-right{
+    width: 460px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    
+}
+.dark-images-right-wrapper{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.img-dark-right{
+    width: 198.25px;
+    
+}
+.dark-images-right-wrapper-1{
+    width: calc(100% - 198.25px - 15px);
+    height: max-content;
+    
+}
+.article-page-1{
+    width: 100%;
+    color: white;
+    height: max-content;
+    font-size: 1.06rem;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+
 
 
 @media only screen and (max-width: 1024px){
@@ -286,12 +398,12 @@ h1{
     .f24-container{
         width: 100vw; /*aqui tem de mudar para viewwidth*/
         max-width: 100%;
-        height: auto;
+        max-height: auto; 
     }
     .f24-container-top{
         flex-wrap: wrap;
         width:100%;
-        /* height:153.8462vw; */
+        height: max-content;
     }
     .f24-container-topLeft{
         width: 100%;
@@ -313,7 +425,7 @@ h1{
         margin-top: 20px;
         width: 100vw;
         max-width: 100%;
-        height: 400px;
+        height: max-content; 
         display: flex;
         justify-content: flex-start;
         gap: 2.2vw;
@@ -326,9 +438,17 @@ h1{
     }
     .f24-container-topRight-down{
         width: 300px;
-        height: 400px;
+        max-height: 400px;
+        margin-bottom: 50px;
 
-    } 
+    }
+    .dark-article{
+        width: 100%;
+        max-height: max-content;
+        margin-top: 20vw; 
+    }
+
+
 }
  @media only screen and (max-width: 640px){
     h1{
@@ -340,7 +460,7 @@ h1{
     .f24-container-topLeft-down{
         width: 100vw;
         max-width: 100%;
-        max-height: fit-content;
+        max-height: max-content;
         /* background-color: green; */
         display: grid;
         grid-template-columns: 1fr;
@@ -398,7 +518,33 @@ h1{
     }
     .f24-container-topRight-down{
         margin: 0 auto;
+        max-height: max-content;
+        
     } 
+    .dark-article{
+        margin-top: 5vw; 
+    }
+    .dark-span{
+        font-size: 1.3rem;
+        width: 380px;
+        height: max-content;
+        line-height: 36px;        
+    }
+
+
+}
+@media only screen and (max-width: 430px){
+
+
+
+
+    .dark-span{        
+        width: 80vw;
+               
+    }
+
+
+
 
 
 }
