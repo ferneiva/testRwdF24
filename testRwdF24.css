@@ -576,8 +576,14 @@ h1{
 
     .dark-span{        
         width: 80vw;
+        max-width: 80%;
                
     }
+    .white-wrapper{
+        width: auto;
+        height: fit-content;
+    }
+
 
 
 
