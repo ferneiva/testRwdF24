@@ -271,7 +271,7 @@ h1{
     width: 1016px;
     height: 569px;
     margin: 0 auto;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 
 }
 .dark-span-wrapper{
@@ -442,12 +442,37 @@ h1{
         margin-bottom: 50px;
 
     }
+    .dark-container{
+        height: auto;
+    }
     .dark-article{
         width: 100%;
-        max-height: max-content;
+        height: auto;
         margin-top: 20vw; 
     }
-
+    .dark-images{
+        height: auto;
+    }
+    .dark-images-left{
+    width: 45.67%;
+    height: auto;
+    }
+    .img-eu{
+        width: 100%;
+    }
+    .article-page{
+        width: 100%;
+    }
+    .dark-images-right{
+        width: 45.27%;
+        
+    }
+    .img-dark-right{
+        width:  43%;
+        height: 25.4%;
+        
+        
+    }
 
 }
  @media only screen and (max-width: 640px){
@@ -530,7 +555,15 @@ h1{
         height: max-content;
         line-height: 36px;        
     }
-
+    .dark-images{
+        flex-wrap: wrap;
+    }
+    .dark-images-left{
+        width: 100%;
+    }
+    .dark-images-right{
+        width: 100%;
+    }
 
 }
 @media only screen and (max-width: 430px){
