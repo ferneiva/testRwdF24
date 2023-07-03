@@ -561,6 +561,9 @@ h1{
     .dark-images-left{
         width: 100%;
     }
+    .article-page{
+        font-size: 1.4rem;
+    }
     .dark-images-right{
         width: 100%;
     }
