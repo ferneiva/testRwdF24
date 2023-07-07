@@ -609,11 +609,12 @@ h1{
         /* max-width: 99%; */
         /* width: 100%; */
         /* width: 34vw; */
-        max-width: 34vw;
+        /* max-width: 39vw; */
+        max-width: 39vw;
         /* width:auto;  
         /* line-height: 22px; */
 
-        height: max-content;
+        height: auto;
         /* word-break: keep-all; */
         /* margin-right: 10px; */
         
@@ -621,13 +622,16 @@ h1{
         Box-shadow: 5px 0 0 #fff, -5px 0 0 #fff;
         color: #000; */
         /* word-break: ; */
-        background-color: #fff;
+
+        /* background-color: #fff;
         -webkit-box-decoration-break: clone;
             box-decoration-break: clone;
         -webkit-box-shadow: 5px 0 0 #fff,-5px 0 0 #fff;
         box-shadow: 5px 0 0 #fff,-5px 0 0 #fff;
-        color: #000;
-    
+        color: #000; */
+        /* overflow-wrap: break-word; */
+        /* word-break: break-word; */
+
     }
 
 
